@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Good Neighbor | Pristine Stores Inc.",
+    "year": "September - October 2025",
+    "position": "Marketing and Admin Assistant",
+    "icon": "/evsu-logo.png",
+    "description": [
+      {
+        "name": "Assisted digital marketing tasks for both StarLegends Adventures, a travel agency, and “Ceo in Pajama”, the CEO personal brand focused on entrepreneurship and digital business."
+      },
+      {
+        "name": "Created and followed a content posting schedule for social media platforms to maintain consistent and timely brand visibility."
+      },
+      {
+        "name": "Designed marketing materials using Canva by creating promotional banners, testimonials, and event graphics. "
+      }
+    ]
+  },
+  {
+    "name": "StarLegends Adventures Inc. ",
+    "year": "March 3 – May 14, 2025",
+    "position": "MARKETING INTERN",
+    "icon": "/evsu-logo.png",
+    "description": [
+      {
+        "name": "Assisted digital marketing tasks for both StarLegends Adventures, a travel agency, and “Ceo in Pajama”, the CEO personal brand focused on entrepreneurship and digital business."
+      },
+      {
+        "name": "Created and followed a content posting schedule for social media platforms to maintain consistent and timely brand visibility."
+      },
+      {
+        "name": "Designed marketing materials using Canva by creating promotional banners, testimonials, and event graphics. "
+      }
+    ]
+  },
+  {
+    "name": "ABB Accounting Firm - Palo, Leyte",
+    "year": "December 4-17, 2019",
+    "position": "WORK IMMERSION",
+    "icon": "/icon-palo.png",
+    "description": [
+      {
+        "name": "Assisted in depositing and encashing checks, ensuring accurate and timely processing of financial transactions. "
+      },
+      {
+        "name": "Reviewed clients’ documents for errors and discrepancies, maintaining a high level of attention to detail and adherence to regulatory standards."
+      },
+      {
+        "name": "Calculated and compared amounts from supporting documents with disbursed amounts."
+      }
+    ]
+  }
+]

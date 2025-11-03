@@ -1,0 +1,82 @@
+[
+  {
+    "type": "social-media",
+    "content": [
+      {
+        "type": "flyers",
+        "content": [
+          {
+            "title": "",
+            "file": "/flyers/1.png"
+          },
+          {
+            "title": "",
+            "file": "/flyers/coffee-day.png"
+          },
+          {
+            "title": "",
+            "file": "/flyers/spooky.png"
+          },
+          {
+            "title": "",
+            "file": "/flyers/weekend.png"
+          }
+        ]
+      },
+      {
+        "type": "posters",
+        "content": [
+          {
+            "title": "",
+            "file": "/lifestyle-posters/3.png"
+          },
+          {
+            "title": "",
+            "file": "/lifestyle-posters/4.png"
+          },
+          {
+            "title": "",
+            "file": "/lifestyle-posters/5.png"
+          },
+          {
+            "title": "",
+            "file": "/lifestyle-posters/6.png"
+          },
+          {
+            "title": "",
+            "file": "/lifestyle-posters/7.png"
+          }
+        ]
+      },
+      {
+        "type": "table-toppers",
+        "content": [
+          {
+            "title": "",
+            "file": "/table-toppers/1.png"
+          },
+          {
+            "title": "",
+            "file": "/table-toppers/2.png"
+          },
+          {
+            "title": "",
+            "file": "/table-toppers/3.png"
+          },
+          {
+            "title": "",
+            "file": "/table-toppers/4.png"
+          },
+          {
+            "title": "",
+            "file": "/table-toppers/5.png"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "videos",
+    "content": [{}]
+  }
+]

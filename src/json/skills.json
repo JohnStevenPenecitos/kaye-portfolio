@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Graphic Designing",
+    "description": "I build and maintain complete web systems from frontend to backend using Laravel and Vue.js. My focus now leans toward backend development—creating robust, scalable, and secure logic.",
+    "icon": "/icons/5.png"
+  },
+  {
+    "name": "Content Management",
+    "description": "I build and maintain complete web systems from frontend to backend using Laravel and Vue.js. My focus now leans toward backend development—creating robust, scalable, and secure logic.",
+    "icon": "/icons/5.png"
+  },
+  {
+    "name": "Video Editor",
+    "description": "I build and maintain complete web systems from frontend to backend using Laravel and Vue.js. My focus now leans toward backend development—creating robust, scalable, and secure logic.",
+    "icon": "/icons/5.png"
+  },
+  {
+    "name": "Video Editor",
+    "description": "I build and maintain complete web systems from frontend to backend using Laravel and Vue.js. My focus now leans toward backend development—creating robust, scalable, and secure logic.",
+    "icon": "/icons/5.png"
+  }
+]

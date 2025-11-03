@@ -1,0 +1,11 @@
+[
+  {
+    "name": "Canva",
+    "icon": "/icons/canva.svg"
+  },
+  {
+    "name": "Capcut",
+    "description": "I build and maintain complete web systems from frontend to backend using Laravel and Vue.js. My focus now leans toward backend development—creating robust, scalable, and secure logic.",
+    "icon": "/icons/capcut.png"
+  }
+]

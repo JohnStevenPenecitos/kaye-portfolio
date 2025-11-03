@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Eastern Visayas State University",
+    "year": "August 2020- June 2025",
+    "course": "Bachelor of Science in Marketing",
+    "icon": "/evsu-logo.png",
+    "achievements": [{ "name": "Academic Achiever" }]
+  },
+  {
+    "name": "Palo National High School",
+    "year": "June 2018 - April 2020",
+    "course": "Accountancy, Business, & Management (ABM)",
+    "icon": "/icon-palo.png",
+    "achievements": [{ "name": "With Honors" }]
+  }
+]
