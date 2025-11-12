@@ -70,22 +70,15 @@ const formRef = ref(null)
 const statusMessage = ref('')
 
 const sendEmail = () => {
-  emailjs
-    .sendForm(
-      'YOUR_SERVICE_ID', // from EmailJS dashboard
-      'YOUR_TEMPLATE_ID', // from EmailJS dashboard
-      formRef.value,
-      'YOUR_PUBLIC_KEY', // from EmailJS dashboard
-    )
-    .then(
-      () => {
-        statusMessage.value = '✅ Your message has been sent successfully!'
-        form.value = { name: '', email: '', message: '' }
-      },
-      (error) => {
-        console.error(error)
-        statusMessage.value = '❌ Failed to send message. Please try again later.'
-      },
-    )
+  emailjs.sendForm('service_an9vsj8', 'template_pb349vc', formRef.value, 'LaEkUd1EhQPFxBz-c').then(
+    () => {
+      statusMessage.value = '✅ Your message has been sent successfully!'
+      form.value = { name: '', email: '', message: '' }
+    },
+    (error) => {
+      console.error(error)
+      statusMessage.value = '❌ Failed to send message. Please try again later.'
+    },
+  )
 }
 </script>

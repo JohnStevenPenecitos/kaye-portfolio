@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from 'vue'
 import MenuNavBar from './components/MenuNavBar.vue'
+import Footer from './components/Footer.vue'
 // import ThemeSelector from './components/ThemeSelector.vue'
 
 // const blobs = ref([
@@ -15,11 +16,11 @@ import MenuNavBar from './components/MenuNavBar.vue'
   <div class="relative flex flex-col font-display min-h-screen bg-[#f2eddb]">
     <main class="gap-2 transition-all duration-300 flex flex-col flex-1 h-full">
       <MenuNavBar />
-      <div class="flex-1 lg:px-56 px-0 flex justify-center">
+      <div class="flex-1 lg:px-56 px-0 flex justify-center mb-10">
         <RouterView />
       </div>
+      <Footer />
     </main>
-    <!-- <ThemeSelector /> -->
   </div>
 </template>
 

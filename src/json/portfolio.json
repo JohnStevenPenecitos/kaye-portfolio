@@ -1,6 +1,7 @@
 [
   {
     "type": "social-media",
+    "sub_type": "marketing-collateral",
     "content": [
       {
         "type": "flyers",
@@ -72,11 +73,25 @@
             "file": "/table-toppers/5.png"
           }
         ]
+      },
+      {
+        "type": "sticker",
+        "content": [
+          {
+            "title": "",
+            "file": "/table-toppers/1.png"
+          }
+        ]
+      },
+      {
+        "type": "label",
+        "content": [
+          {
+            "title": "",
+            "file": "/table-toppers/1.png"
+          }
+        ]
       }
     ]
-  },
-  {
-    "type": "videos",
-    "content": [{}]
   }
 ]

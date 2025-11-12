@@ -1,11 +1,28 @@
 [
   {
-    "name": "Canva",
-    "icon": "/icons/canva.svg"
+    "type": "editing",
+    "content": [
+      {
+        "name": "Canva",
+        "icon": "/icons/canva.svg"
+      },
+      {
+        "name": "Capcut",
+        "icon": "/icons/capcut.png"
+      }
+    ]
   },
   {
-    "name": "Capcut",
-    "description": "I build and maintain complete web systems from frontend to backend using Laravel and Vue.js. My focus now leans toward backend development—creating robust, scalable, and secure logic.",
-    "icon": "/icons/capcut.png"
+    "type": "content_management",
+    "content": [
+      {
+        "name": "Instagram",
+        "icon": "/icons/logo-ig.png"
+      },
+      {
+        "name": "Tiktok",
+        "icon": "/icons/logo-tik.png"
+      }
+    ]
   }
 ]

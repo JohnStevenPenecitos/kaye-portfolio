@@ -105,14 +105,60 @@
       </section>
 
       <!-- Tools -->
+      <!-- <section class="flex flex-col justify-center items-center gap-8 my-20">
+        <FontText addedClass="" sizeVariant="xxlbold"> Tools </FontText>
+        <div class="flex">
+          <div class="grid md:grid-cols-2 gap-10 text-gray-700 text-lg">
+            <div v-for="(item, index) in tools" :key="index" class="flex flex-col items-center">
+              <Icons :icon="item.icon" />
+              <FontText addedClass="text-[#0e221b] my-4" sizeVariant="mediumbold">
+                {{ item.name }}</FontText
+              >
+            </div>
+          </div>
+          <div class="grid md:grid-cols-2 gap-10 text-gray-700 text-lg">
+            <div v-for="(item, index) in tools" :key="index" class="flex flex-col items-center">
+              <Icons :icon="item.icon" />
+              <FontText addedClass="text-[#0e221b] my-4" sizeVariant="mediumbold">
+                {{ item.name }}</FontText
+              >
+            </div>
+          </div>
+        </div>
+      </section> -->
+
       <section class="flex flex-col justify-center items-center gap-8 my-20">
         <FontText addedClass="" sizeVariant="xxlbold"> Tools </FontText>
-        <div class="grid md:grid-cols-2 gap-10 text-gray-700 text-lg">
-          <div v-for="(item, index) in tools" :key="index" class="flex flex-col items-center">
-            <Icons :icon="item.icon" />
-            <FontText addedClass="text-[#0e221b] my-4" sizeVariant="mediumbold">
-              {{ item.name }}</FontText
+        <div class="grid md:grid-cols-2 gap-10">
+          <div
+            v-for="(category, index) in tools"
+            :key="index"
+            class="w-full flex flex-col items-center justify-center"
+          >
+            <FontText
+              sizeVariant="xlbold"
+              addedClass="text-center text-[#0e221b]  uppercase tracking-widest"
             >
+              {{ category.type.replace('_', ' ') }}
+            </FontText>
+
+            <div class="grid md:grid-cols-2 gap-6 w-full max-w-3xl">
+              <div
+                v-for="(contentGroup, cIndex) in category.content"
+                :key="cIndex"
+                class="flex items-center justify-center hover:scale-105 transition-transform duration-300"
+              >
+                <div class="flex flex-col gap-2">
+                  <Icons :icon="contentGroup.icon" />
+                  <FontText
+                    sizeVariant="largebold"
+                    addedClass="capitalize text-center text-[#7a685d]"
+                  >
+                    {{ contentGroup.name }}
+                  </FontText>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -123,7 +169,9 @@
 <script setup>
 import { ref } from 'vue'
 import FontText from '@/components/FontText.vue'
-import kaye from '/kayi.jpg'
+// import kaye from '/kayi.jpg'
+import kaye from '/flyers/1.png'
+
 import TitlePage from '@/components/TitlePage.vue'
 
 import educData from '../json/education.json'
