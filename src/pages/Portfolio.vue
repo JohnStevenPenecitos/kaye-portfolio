@@ -75,33 +75,3 @@ onMounted(() => {
   items.forEach((el) => observer.observe(el))
 })
 </script>
-
-<!-- <script setup>
-import { ref } from 'vue'
-import FontText from '@/components/FontText.vue'
-import TitlePage from '@/components/TitlePage.vue'
-import portData from '../json/portfolio.json'
-
-const portfolio = ref(portData)
-</script> -->
-
-<!-- Intro Section -->
-<!-- <section class="h-[40rem] bg-red-300 flex flex-col justify-center items-center">
-        <div class="flex flex-col">
-          <div class="flex gap-10 flex-wrap justify-center">
-            <img
-              class="w-[300px] rounded-t-full border-4 border-[#7a685d] shadow-md"
-              :src="kaye"
-              alt="Designer photo"
-            />
-            <div class="flex justify-center items-center max-w-xl">
-              <FontText addedClass="leading-relaxed text-center" sizeVariant="large">
-                <span class="font-semibold">
-                  A passionate Canva designer and video editor who brings ideas to life through
-                  creative visuals, smooth edits, and a touch of storytelling flair.
-                </span>
-              </FontText>
-            </div>
-          </div>
-        </div>
-      </section> -->

@@ -32,16 +32,20 @@ const props = defineProps({
 })
 
 const sizeVariants = {
-  small: 'text-sm md:text-base',
-  smallbold: 'text-sm md:text-base font-bold my-3',
-  medium: 'text-base md:text-lg',
-  large: 'text-xl lg:text-2xl',
-  xl: 'text-3xl lg:text-4xl',
-  largebold: 'text-xl lg:text-2xl font-bold',
-  mediumbold: 'text-base md:text-lg font-bold',
-  mediumbolditalic: 'text-base md:text-md font-bold italic',
-  xlbold: 'text-2xl lg:text-4xl font-semibold',
-  xxlbold: 'text-5xl font-semibold',
+  small: 'text-sm md:text-base lg:text-lg',
+  smallbold: 'text-sm md:text-base lg:text-lg font-bold my-3',
+
+  medium: 'text-base md:text-lg lg:text-xl',
+  mediumbold: 'text-base md:text-lg lg:text-xl font-bold',
+  mediumbolditalic: 'text-base md:text-lg lg:text-xl font-bold italic',
+
+  large: 'text-xl md:text-2xl lg:text-3xl',
+  largebold: 'text-xl md:text-2xl lg:text-3xl font-bold',
+
+  xl: 'text-3xl md:text-4xl lg:text-5xl',
+  xlbold: 'text-3xl md:text-4xl lg:text-5xl font-semibold',
+
+  xxlbold: 'text-4xl md:text-5xl lg:text-6xl font-semibold',
 }
 
 const computedClasses = computed(() => {

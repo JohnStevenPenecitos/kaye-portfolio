@@ -1,6 +1,6 @@
 <template>
-  <div class="max-w-4xl mx-auto w-full">
-    <TitlePage> Contact Me! </TitlePage>
+  <div class="max-w-4xl mx-auto w-full p-2">
+    <TitlePage class="mb-10"> Contact Me! </TitlePage>
     <form
       @submit.prevent="sendEmail"
       ref="formRef"
